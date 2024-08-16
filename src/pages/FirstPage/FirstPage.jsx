@@ -1,11 +1,15 @@
-import { Container, Title, StyledImage } from './FirstPage.styled';
-import example from '../../assets/example.png';
+import { Container, Title } from './FirstPage.styled';
+import { Sidebar } from '../../components/SideBar/SideBar';
+import { Customers } from '../../components/Customers/Customers';
 
 const FirstPage = () => {
   return (
     <Container>
       <Title>First Page</Title>
-      <StyledImage src={example} alt="Example" />
+      <div className="dashboard-container">
+        <Sidebar />
+        <Customers />
+      </div>
     </Container>
   );
 };
