@@ -1,6 +1,6 @@
 # React CRM Dashboard Project for customers
 
-![Logo](./src/assets/images/logo.svg)
+![Logo](./src/assets/images/logo.svg) Dashboard v1.0
 
 ## Description
 
